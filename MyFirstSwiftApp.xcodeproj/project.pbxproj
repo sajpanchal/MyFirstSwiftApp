@@ -13,8 +13,8 @@
 		729E2F0223D7BFA60063333D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E2F0023D7BFA60063333D /* Main.storyboard */; };
 		729E2F0423D7BFA80063333D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729E2F0323D7BFA80063333D /* Assets.xcassets */; };
 		729E2F0723D7BFA80063333D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E2F0523D7BFA80063333D /* LaunchScreen.storyboard */; };
-		729E2F1223D7BFA80063333D /* autoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E2F1123D7BFA80063333D /* autoLayoutTests.swift */; };
-		729E2F1D23D7BFA80063333D /* autoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E2F1C23D7BFA80063333D /* autoLayoutUITests.swift */; };
+		729E2F1223D7BFA80063333D /* MyFirstSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E2F1123D7BFA80063333D /* MyFirstSwiftAppTests.swift */; };
+		729E2F1D23D7BFA80063333D /* MyFirstSwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E2F1C23D7BFA80063333D /* MyFirstSwiftAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		729E2EF723D7BFA60063333D /* autoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E2EF723D7BFA60063333D /* MyFirstSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729E2EFA23D7BFA60063333D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729E2EFC23D7BFA60063333D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		729E2EFE23D7BFA60063333D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +43,11 @@
 		729E2F0323D7BFA80063333D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729E2F0623D7BFA80063333D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		729E2F0823D7BFA80063333D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		729E2F0D23D7BFA80063333D /* autoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		729E2F1123D7BFA80063333D /* autoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoLayoutTests.swift; sourceTree = "<group>"; };
+		729E2F0D23D7BFA80063333D /* MyFirstSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E2F1123D7BFA80063333D /* MyFirstSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstSwiftAppTests.swift; sourceTree = "<group>"; };
 		729E2F1323D7BFA80063333D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		729E2F1823D7BFA80063333D /* autoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		729E2F1C23D7BFA80063333D /* autoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoLayoutUITests.swift; sourceTree = "<group>"; };
+		729E2F1823D7BFA80063333D /* MyFirstSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E2F1C23D7BFA80063333D /* MyFirstSwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstSwiftAppUITests.swift; sourceTree = "<group>"; };
 		729E2F1E23D7BFA80063333D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		729E2EEE23D7BFA60063333D = {
 			isa = PBXGroup;
 			children = (
-				729E2EF923D7BFA60063333D /* autoLayout */,
-				729E2F1023D7BFA80063333D /* autoLayoutTests */,
-				729E2F1B23D7BFA80063333D /* autoLayoutUITests */,
+				729E2EF923D7BFA60063333D /* MyFirstSwiftApp */,
+				729E2F1023D7BFA80063333D /* MyFirstSwiftAppTests */,
+				729E2F1B23D7BFA80063333D /* MyFirstSwiftAppUITests */,
 				729E2EF823D7BFA60063333D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		729E2EF823D7BFA60063333D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				729E2EF723D7BFA60063333D /* autoLayout.app */,
-				729E2F0D23D7BFA80063333D /* autoLayoutTests.xctest */,
-				729E2F1823D7BFA80063333D /* autoLayoutUITests.xctest */,
+				729E2EF723D7BFA60063333D /* MyFirstSwiftApp.app */,
+				729E2F0D23D7BFA80063333D /* MyFirstSwiftAppTests.xctest */,
+				729E2F1823D7BFA80063333D /* MyFirstSwiftAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		729E2EF923D7BFA60063333D /* autoLayout */ = {
+		729E2EF923D7BFA60063333D /* MyFirstSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
 				729E2EFA23D7BFA60063333D /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				729E2F0523D7BFA80063333D /* LaunchScreen.storyboard */,
 				729E2F0823D7BFA80063333D /* Info.plist */,
 			);
-			path = autoLayout;
+			path = MyFirstSwiftApp;
 			sourceTree = "<group>";
 		};
-		729E2F1023D7BFA80063333D /* autoLayoutTests */ = {
+		729E2F1023D7BFA80063333D /* MyFirstSwiftAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				729E2F1123D7BFA80063333D /* autoLayoutTests.swift */,
+				729E2F1123D7BFA80063333D /* MyFirstSwiftAppTests.swift */,
 				729E2F1323D7BFA80063333D /* Info.plist */,
 			);
-			path = autoLayoutTests;
+			path = MyFirstSwiftAppTests;
 			sourceTree = "<group>";
 		};
-		729E2F1B23D7BFA80063333D /* autoLayoutUITests */ = {
+		729E2F1B23D7BFA80063333D /* MyFirstSwiftAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				729E2F1C23D7BFA80063333D /* autoLayoutUITests.swift */,
+				729E2F1C23D7BFA80063333D /* MyFirstSwiftAppUITests.swift */,
 				729E2F1E23D7BFA80063333D /* Info.plist */,
 			);
-			path = autoLayoutUITests;
+			path = MyFirstSwiftAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		729E2EF623D7BFA60063333D /* autoLayout */ = {
+		729E2EF623D7BFA60063333D /* MyFirstSwiftApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 729E2F2123D7BFA80063333D /* Build configuration list for PBXNativeTarget "autoLayout" */;
+			buildConfigurationList = 729E2F2123D7BFA80063333D /* Build configuration list for PBXNativeTarget "MyFirstSwiftApp" */;
 			buildPhases = (
 				729E2EF323D7BFA60063333D /* Sources */,
 				729E2EF423D7BFA60063333D /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = autoLayout;
+			name = MyFirstSwiftApp;
 			productName = autoLayout;
-			productReference = 729E2EF723D7BFA60063333D /* autoLayout.app */;
+			productReference = 729E2EF723D7BFA60063333D /* MyFirstSwiftApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		729E2F0C23D7BFA80063333D /* autoLayoutTests */ = {
+		729E2F0C23D7BFA80063333D /* MyFirstSwiftAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 729E2F2423D7BFA80063333D /* Build configuration list for PBXNativeTarget "autoLayoutTests" */;
+			buildConfigurationList = 729E2F2423D7BFA80063333D /* Build configuration list for PBXNativeTarget "MyFirstSwiftAppTests" */;
 			buildPhases = (
 				729E2F0923D7BFA80063333D /* Sources */,
 				729E2F0A23D7BFA80063333D /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				729E2F0F23D7BFA80063333D /* PBXTargetDependency */,
 			);
-			name = autoLayoutTests;
+			name = MyFirstSwiftAppTests;
 			productName = autoLayoutTests;
-			productReference = 729E2F0D23D7BFA80063333D /* autoLayoutTests.xctest */;
+			productReference = 729E2F0D23D7BFA80063333D /* MyFirstSwiftAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		729E2F1723D7BFA80063333D /* autoLayoutUITests */ = {
+		729E2F1723D7BFA80063333D /* MyFirstSwiftAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 729E2F2723D7BFA80063333D /* Build configuration list for PBXNativeTarget "autoLayoutUITests" */;
+			buildConfigurationList = 729E2F2723D7BFA80063333D /* Build configuration list for PBXNativeTarget "MyFirstSwiftAppUITests" */;
 			buildPhases = (
 				729E2F1423D7BFA80063333D /* Sources */,
 				729E2F1523D7BFA80063333D /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				729E2F1A23D7BFA80063333D /* PBXTargetDependency */,
 			);
-			name = autoLayoutUITests;
+			name = MyFirstSwiftAppUITests;
 			productName = autoLayoutUITests;
-			productReference = 729E2F1823D7BFA80063333D /* autoLayoutUITests.xctest */;
+			productReference = 729E2F1823D7BFA80063333D /* MyFirstSwiftAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 729E2EF223D7BFA60063333D /* Build configuration list for PBXProject "autoLayout" */;
+			buildConfigurationList = 729E2EF223D7BFA60063333D /* Build configuration list for PBXProject "MyFirstSwiftApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				729E2EF623D7BFA60063333D /* autoLayout */,
-				729E2F0C23D7BFA80063333D /* autoLayoutTests */,
-				729E2F1723D7BFA80063333D /* autoLayoutUITests */,
+				729E2EF623D7BFA60063333D /* MyFirstSwiftApp */,
+				729E2F0C23D7BFA80063333D /* MyFirstSwiftAppTests */,
+				729E2F1723D7BFA80063333D /* MyFirstSwiftAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729E2F1223D7BFA80063333D /* autoLayoutTests.swift in Sources */,
+				729E2F1223D7BFA80063333D /* MyFirstSwiftAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729E2F1D23D7BFA80063333D /* autoLayoutUITests.swift in Sources */,
+				729E2F1D23D7BFA80063333D /* MyFirstSwiftAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		729E2F0F23D7BFA80063333D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 729E2EF623D7BFA60063333D /* autoLayout */;
+			target = 729E2EF623D7BFA60063333D /* MyFirstSwiftApp */;
 			targetProxy = 729E2F0E23D7BFA80063333D /* PBXContainerItemProxy */;
 		};
 		729E2F1A23D7BFA80063333D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 729E2EF623D7BFA60063333D /* autoLayout */;
+			target = 729E2EF623D7BFA60063333D /* MyFirstSwiftApp */;
 			targetProxy = 729E2F1923D7BFA80063333D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,12 +435,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = autoLayout/Info.plist;
+				INFOPLIST_FILE = MyFirstSwiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.autoLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MyFirstSwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,12 +452,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = autoLayout/Info.plist;
+				INFOPLIST_FILE = MyFirstSwiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.autoLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MyFirstSwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,18 +470,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = autoLayoutTests/Info.plist;
+				INFOPLIST_FILE = MyFirstSwiftAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.autoLayoutTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MyFirstSwiftAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoLayout.app/autoLayout";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstSwiftApp.app/MyFirstSwiftApp";
 			};
 			name = Debug;
 		};
@@ -491,18 +491,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = autoLayoutTests/Info.plist;
+				INFOPLIST_FILE = MyFirstSwiftAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.autoLayoutTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MyFirstSwiftAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoLayout.app/autoLayout";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstSwiftApp.app/MyFirstSwiftApp";
 			};
 			name = Release;
 		};
@@ -511,13 +511,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = autoLayoutUITests/Info.plist;
+				INFOPLIST_FILE = MyFirstSwiftAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.autoLayoutUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MyFirstSwiftAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,13 +530,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = autoLayoutUITests/Info.plist;
+				INFOPLIST_FILE = MyFirstSwiftAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.autoLayoutUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MyFirstSwiftAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		729E2EF223D7BFA60063333D /* Build configuration list for PBXProject "autoLayout" */ = {
+		729E2EF223D7BFA60063333D /* Build configuration list for PBXProject "MyFirstSwiftApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				729E2F1F23D7BFA80063333D /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		729E2F2123D7BFA80063333D /* Build configuration list for PBXNativeTarget "autoLayout" */ = {
+		729E2F2123D7BFA80063333D /* Build configuration list for PBXNativeTarget "MyFirstSwiftApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				729E2F2223D7BFA80063333D /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		729E2F2423D7BFA80063333D /* Build configuration list for PBXNativeTarget "autoLayoutTests" */ = {
+		729E2F2423D7BFA80063333D /* Build configuration list for PBXNativeTarget "MyFirstSwiftAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				729E2F2523D7BFA80063333D /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		729E2F2723D7BFA80063333D /* Build configuration list for PBXNativeTarget "autoLayoutUITests" */ = {
+		729E2F2723D7BFA80063333D /* Build configuration list for PBXNativeTarget "MyFirstSwiftAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				729E2F2823D7BFA80063333D /* Debug */,

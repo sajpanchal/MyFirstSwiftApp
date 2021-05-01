@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import autoLayout
+@testable import MyFirstSwiftApp
 
-class autoLayoutTests: XCTestCase {
+class MyFirstSwiftAppTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
